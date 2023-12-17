@@ -1,0 +1,28 @@
+<!--a DOCTYPE-pal jelzem a böngészőnek, hogy HTML dokumentumot kezel-->
+<!DOCTYPE html>
+<html lang="hu">
+<!--fejléc szekció: metaadatok és hivatkozások-->
+<head>
+    <meta charset="UTF-8">
+    <title>Termék Kezelő</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="3_kod.js"></script>
+</head>
+<!--a weboldal tartalma, címsorok, beviteli űrlapok, gomb az új termékek bevitelére, konténer, ahol megjelennek az eredmények-->
+<body>
+    <div id="app">
+        <h1>Termék Adatok</h1>
+        <form id="productForm">
+            <div id="productInputs">
+                <!-- Itt lesznek a termék inputok -->
+            </div>
+            <button type="button" id="addProduct">Új termék hozzáadása</button>
+            <button type="submit">Számítások elvégzése</button>
+        </form>
+        <div id="results">
+            <!-- Itt jelennek meg az eredmények -->
+        </div>
+    </div>
+    <script src="script.ts"></script>
+</body>
+</html>
